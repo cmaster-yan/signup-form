@@ -1,0 +1,74 @@
+@font-face {
+    font-family: TarrgetPlatinum;
+    src: url(./fonts/TarrgetPlatinumRegular-eznx.otf);
+  }
+
+  body {
+    display: grid;
+    grid-template-columns: 30% auto;
+    padding: 0;
+    margin: 0;
+}
+.sidebar {
+    max-width: 100%;
+}
+.sidebar img {
+    max-width: 100%;
+}
+.form {
+    background: linear-gradient(#7bc7de, #e051d4);
+    display: flex;
+    flex-direction: column;
+}
+.form header {
+    text-align: center;
+    font-family: TarrgetPlatinum;
+    font-size: 30px;
+    color: darkorange;
+}
+
+.info {
+    width: 450px;
+    text-align: center;
+    border: solid 3px darkorange;
+    align-self: center;
+}
+
+main {
+    width: 85%;
+    align-self: center;
+    border: solid 3px darkorange;
+    margin-top: 30px;
+}
+main > form{
+    display: flex;
+    flex-wrap: wrap;
+}
+form > div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 10px;
+}
+label{
+    display: block;
+    width: 150px;
+    align-self: center;
+}
+input{
+    align-self: center;
+    min-height: 28px;
+    border-radius: 10px;
+}
+
+.termscond {
+    display: block;
+}
+
+input, button {
+    width : 150px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  

@@ -5,8 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up!</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="sidebar">
+        <img src="./images/infinity.jpg" alt="A car over the road to the sun with 80's vibes">
+    </div>
+    <div class="form">
+        <header>
+            <h1>Sign-Up</h1>
+        </header>
+        <div class="info">
+            <p>Welcome to my Sign-Up Form. Please take a look, and if you like it feel 
+                free to use it in your Website. Fill the fields given below, accept our
+                <a href="#">terms and conditions</a> and press Sign-Up button. You
+                will not regret
+            </p>
+        </div>
+        <main>
+            <form action="#">
+                <div>
+                    <label for="first_name">First Name</label>
+                    <input type="text" id="first_name" name="first_name">    
+                </div>
+                <div>
+                    <label for="last_name">Last Name</label>
+                    <input type="text" id="last_name" name="last_name">
+                </div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <label for="tel">Phone</label>
+                    <input type="tel" id="tel" name="phone">
+                </div>
+                <div>
+                    <label for="pwd">Password</label>
+                    <input type="password" id="pwd" name="pwd">
+                </div>
+                <div>
+                    <label for="pwdconf">Confirm Password</label>
+                    <input type="password" id="pwdconf" name="pwdconf">
+                </div>
+                <div class="termscond">
+                    <input type="checkbox" id="termscond" name="termscond" checked>
+                    <label for="termscond">I have read and accept <a href="#">Terms and Conditions</a></label>
+                </div>
+            </form>
+        </main>
+    </div>
 </body>
 </html>
