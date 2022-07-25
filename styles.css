@@ -101,6 +101,10 @@ input{
     font-size: 100%;
 }
 
+input:valid {
+    border: 2px solid black;
+  }
+
 .termscond {
     display: flex;
     flex-direction: row;
