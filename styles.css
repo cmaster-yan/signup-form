@@ -56,13 +56,14 @@ body {
     text-align: center;
     font-family: TarrgetPlatinum;
     font-size: 30px;
-    color: silver;
+    color: white;
 }
 
 .info {
     width: 450px;
     text-align: center;
-    border: solid 3px darkorange;
+    border-style: solid;
+    border-color: #00A4BD #00A4BD #FF7A59;
     align-self: center;
     font-family: FallingSky;
 }
@@ -70,7 +71,8 @@ body {
 main {
     width: 85%;
     align-self: center;
-    border: solid 3px darkorange;
+    border-style: solid;
+    border-color: #00A4BD #00A4BD #FF7A59;
     margin-top: 30px;
 }
 main > form{
@@ -89,6 +91,7 @@ label{
     width: 150px;
     align-self: center;
     font-family: FallingSky;
+    font-size: 13px;
 }
 input{
     align-self: center;
@@ -128,6 +131,13 @@ button {
     background-color: green;
     border-radius: 10px;
     font-weight: bold;
+}
+button:hover{
+    transition: 0.3ms;
+    background-color: #b9e769;
+    -webkit-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+    -moz-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+    box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
 }
 .register > p {
     align-self: center;
