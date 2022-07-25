@@ -2,8 +2,17 @@
     font-family: TarrgetPlatinum;
     src: url(./fonts/TarrgetPlatinumRegular-eznx.otf);
   }
+@font-face {
+    font-family: FallingSky;
+    src: url(./fonts/FallingSky-JKwK.otf);
+}
 
-  body {
+@font-face {
+    font-family: NorseBold;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
+body {
     display: grid;
     grid-template-columns: 30% auto;
     padding: 0;
@@ -15,6 +24,29 @@
 .sidebar img {
     max-width: 100%;
 }
+.logo {
+    background:rgba(0,0,0,0.5); 
+    width: 404px;
+    position: absolute;
+    z-index: 1;
+    top: 7rem;
+    display: flex;
+    font-family: NorseBold;
+    font-size: 150px;
+}
+.odin-face{
+    width: 30%;
+    margin-left: 20px;
+}
+.odin-text {
+    margin-top: 15px;
+    color: white;
+}
+
+.logo > img {
+    width: 50%;
+    align-self: center;
+}
 .form {
     background: linear-gradient(#7bc7de, #e051d4);
     display: flex;
@@ -24,7 +56,7 @@
     text-align: center;
     font-family: TarrgetPlatinum;
     font-size: 30px;
-    color: darkorange;
+    color: silver;
 }
 
 .info {
@@ -32,6 +64,7 @@
     text-align: center;
     border: solid 3px darkorange;
     align-self: center;
+    font-family: FallingSky;
 }
 
 main {
@@ -48,12 +81,14 @@ form > div{
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 label{
     display: block;
     width: 150px;
     align-self: center;
+    font-family: FallingSky;
 }
 input{
     align-self: center;
@@ -62,7 +97,8 @@ input{
 }
 
 .termscond {
-    display: block;
+    display: flex;
+    flex-direction: row;
 }
 
 input, button {
@@ -70,5 +106,30 @@ input, button {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    border: 1px solid;
+    border-color: grey;
   }
+
+.termscond > input {
+    width: 15px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.termscond label {
+    display: inline-block;
+    width: 350px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+button {
+    min-height: 40px;
+    margin-left: 126px;
+    margin-top: 40px;
+    background-color: green;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.register > p {
+    align-self: center;
+}
   
