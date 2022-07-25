@@ -97,6 +97,8 @@ input{
     align-self: center;
     min-height: 28px;
     border-radius: 10px;
+    font-family: inherit;
+    font-size: 100%;
 }
 
 .termscond {
@@ -106,7 +108,7 @@ input{
 
 input, button {
     width : 150px;
-    padding: 0;
+    padding: 6px;
     margin: 0;
     box-sizing: border-box;
     border: 1px solid;
